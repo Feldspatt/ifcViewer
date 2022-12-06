@@ -1,0 +1,22 @@
+{
+  "name": "ifcviewertest",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "rollup -c rollup.config.mjs"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^23.0.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "three": "^0.135.0",
+    "web-ifc-viewer": "^1.0.213"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.5.1"
+  }
+}
